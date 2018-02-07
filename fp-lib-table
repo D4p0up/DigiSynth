@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name teensy)(type KiCad)(uri "$(KISYSMOD)/teensy.pretty-master")(options "")(descr ""))
+  (lib (name DigiSynth)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name jack)(type KiCad)(uri "$(KIPRJMOD)/jack.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+.title KiCad schematic
+RR3 Net-_Q1-Pad3_ 0 100
+QQ1 Net-_Q1-Pad1_ Net-_C1-Pad1_ Net-_Q1-Pad3_ ? 1000
+VV2 Net-_C1-Pad2_ 0 VSOURCE
+CC1 Net-_C1-Pad1_ Net-_C1-Pad2_ 2.2u
+VV1 Net-_Q1-Pad1_ 0 VSOURCE
+RR1 Net-_Q1-Pad1_ Net-_C1-Pad1_ 1000
+RR2 Net-_C1-Pad1_ 0 1000
+.end
