@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171114) (host pcbnew "(2017-11-24 revision 9df938484)-makepkg")
+(kicad_pcb (version 20171130) (host pcbnew "(2018-02-08 revision be70ce7d4)-makepkg")
 
   (general
     (thickness 1.6)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user)
@@ -82,7 +82,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -567,7 +567,7 @@
     (pad 52 thru_hole circle (at -10.16 0 270) (size 1.9 1.9) (drill 0.5) (layers *.Cu *.Mask B.SilkS)
       (net 23 "Net-(U1-Pad52)"))
     (model C:/Users/test/Documents/Teensy-3.wrl
-      (at (xyz -17.5 9 3.5))
+      (offset (xyz -444.4999933242798 228.5999965667725 88.89999866485596))
       (scale (xyz 0.01 0.01 0.01))
       (rotate (xyz 0 0 90))
     )
@@ -1894,10 +1894,10 @@
     (descr "Din 5 (MIDI), Pro Signal P/N PSG03463")
     (path /5A66633D)
     (fp_text reference J3 (at 10.668 -5.334) (layer B.SilkS)
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_text value DIN-5 (at 0 11.00074) (layer B.SilkS)
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -8.99922 -8.7503) (end 10.50036 -8.7503) (layer B.SilkS) (width 0.3048))
     (fp_line (start 8.99922 -8.99922) (end -8.99922 -8.99922) (layer B.SilkS) (width 0.3048))
@@ -1945,7 +1945,7 @@
     (pad "" np_thru_hole circle (at 5.00126 -6.9977) (size 2.49936 2.49936) (drill 1.397) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at -5.00126 -6.9977) (size 2.49936 2.49936) (drill 1.397) (layers *.Cu *.Mask B.SilkS))
     (model ${KISYS3DMOD}/Connectors.3dshapes/SDS-50J.wrl
-      (at (xyz 0 -10.5 0))
+      (offset (xyz 0 -266.6999959945679 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
@@ -2640,7 +2640,7 @@
     (pad 0 np_thru_hole circle (at 7.5 -7.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad 0 np_thru_hole circle (at 7.5 2.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -2687,7 +2687,7 @@
     (pad 0 np_thru_hole circle (at 7.5 -7.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad 0 np_thru_hole circle (at 7.5 2.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -2734,7 +2734,7 @@
     (pad 0 np_thru_hole circle (at 7.5 -7.25 270) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad 0 np_thru_hole circle (at 7.5 2.25 270) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -2781,7 +2781,7 @@
     (pad 3 thru_hole circle (at 0 -5 270) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -2828,7 +2828,7 @@
     (pad 3 thru_hole circle (at 0 -5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7.5))
+      (offset (xyz 190.4999971389771 63.49999904632568 190.4999971389771))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -2875,7 +2875,7 @@
     (pad 3 thru_hole circle (at 0 -5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -2922,7 +2922,7 @@
     (pad 3 thru_hole circle (at 0 -5 270) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -2969,7 +2969,7 @@
     (pad 3 thru_hole circle (at 0 -5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -3016,7 +3016,7 @@
     (pad 0 np_thru_hole circle (at 7.5 -7.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad 0 np_thru_hole circle (at 7.5 2.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 7.5 2.5 7))
+      (offset (xyz 190.4999971389771 63.49999904632568 177.7999973297119))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -180 0 -90))
     )
@@ -3063,7 +3063,7 @@
     (pad 0 np_thru_hole circle (at 7.5 -7.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad 0 np_thru_hole circle (at 7.5 2.25 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/ALPHA-9MM-15-T18.wrl
-      (at (xyz 8 2.5 7.5))
+      (offset (xyz 203.1999969482422 63.49999904632568 190.4999971389771))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 180 0 -90))
     )
@@ -3114,7 +3114,7 @@
     (pad 2 thru_hole circle (at 0 4.5 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-      (at (xyz 0.1269999980926514 0 0))
+      (offset (xyz 3.225799903106691 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -3165,7 +3165,7 @@
     (pad 2 thru_hole circle (at 0 4.5) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-      (at (xyz 0.1269999980926514 0 0))
+      (offset (xyz 3.225799903106691 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -3216,7 +3216,7 @@
     (pad 1 thru_hole circle (at 6.5 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 45 B1))
     (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-      (at (xyz 0.1269999980926514 0 0))
+      (offset (xyz 3.225799903106691 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -3267,7 +3267,7 @@
     (pad 1 thru_hole circle (at 6.5 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 46 B3))
     (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-      (at (xyz 0.1269999980926514 0 0))
+      (offset (xyz 3.225799903106691 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -3582,7 +3582,7 @@
     (pad 2 thru_hole circle (at 0 4.5 180) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 28 GND))
     (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-      (at (xyz 0.1269999980926514 0 0))
+      (offset (xyz 3.225799903106691 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -3633,7 +3633,7 @@
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 86 TYPE))
     (model ${KISYS3DMOD}/Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-      (at (xyz 0.1269999980926514 0 0))
+      (offset (xyz 3.225799903106691 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
